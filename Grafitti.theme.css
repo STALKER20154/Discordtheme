@@ -1,0 +1,100 @@
+/**
+* @name Graffiti
+* @author Blanc#1957
+* @authorLink https://github.com/BlancSy
+* @version 1.0.4
+* @invite SBuYeHh
+* @description WizardUI Theme Edited
+* @website https://purplewizard.space/
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+
+/* This is an addon that adds the Marianne font.
+@import url("https://goldenlys.github.io/WizardUI/addons/Marianne.css"); */
+
+/* This is an addon that hides the members list until you hover over it */
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css");
+
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+
+/* This is an addon that moves the servers to the top with an horizontal width.*/
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
+
+/* This is a modification for PurpleServerList which replaces the folders icons with letters.
+@import url("https://goldenlys.github.io/WizardUI/addons/LettersInPSL.css"); */
+
+/* This is an addon that makes the members list hidden until you hover it.
+@import url("https://goldenlys.github.io/WizardUI/addons/HoverMembers.css"); */
+
+/* This is an addon that moves the "user is typing" text to the bottom of the app, like the default discord.
+@import url("https://goldenlys.github.io/WizardUI/addons/UserIsTyping.css"); */
+
+*,
+*:before,
+*:after {
+    /* MAIN VARIABLES */
+    --font: 'Quicksand', 'emoji', sans-serif;
+    --Text: rgb(255, 255, 255);
+    --logo: url(https://media.discordapp.net/attachments/1006900036266905602/1081990245685416006/af0dbbe033740254920354b5c8b3aec9.png);
+/*	
+https://cdn.discordapp.com/attachments/1079451989668278293/1079452234397515977/Logo1.jpeg 
+https://media.discordapp.net/attachments/1079451989668278293/1079452393734938634/Logo2.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934485392109680/logo3.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934485052366928/logo4.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934484733608026/logo5.jpeg
+*/
+     /* STATUS VARIABLES */
+    --Online: rgb(0, 255, 6);
+    --Idle: rgb(18, 100, 239);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+    --Streaming: rgb(110, 0, 196);
+
+    /* UI COLOR VARIABLES */
+    --grey: rgb(18, 19, 31);
+    --grey5: rgba(18, 19, 31, .75);
+    --darkgrey: rgb(10, 10, 20);
+    --darkgrey5: rgba(10, 10, 20, .75);
+    --ui-success: rgb(69, 208, 34);
+    --ui-warning: rgb(58, 91, 255);
+    --ui-error: rgb(208, 34, 34);
+
+    /* THEME COLORS */
+    --Primary: rgb(255 156 205);
+    --text-link: rgb(245 220 0);
+    --Highlighted: rgba(58 91 255);
+    --MessageHover: transparent;
+    --Unread: rgb(255 255 255 / 10%);
+    --Hover: rgb(18 19 31 / 50%);
+    --Selected: rgb(11 156 255);
+
+    /* BACKGROUNDS */
+    --background: url(https://i.pinimg.com/originals/9e/b4/57/9eb457081e3a0be933543fbd5c63c065.jpg);
+/*	
+https://cdn.discordapp.com/attachments/1079451989668278293/1079452318522687579/Background.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934464613515274/wallpaper2.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934466173796393/wallpaper3.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934465636946031/wallpaper4.jpeg
+https://cdn.discordapp.com/attachments/1079451989668278293/1080934465079087285/wallpaper5.jpeg
+*/
+    --bg-titlebar: rgba(0, 0, 0, 0.55);
+    --bg-servers: rgba(0, 0, 0, 0.55);
+    --bg-ui: rgba(0, 0, 0, 0.55);
+    --bg-chatbox: rgba(0, 0, 0, 0.55);
+    --bg-sendmessage: rgba(0, 0, 0, 0.65);
+    --bg-members: rgba(0, 0, 0, 0.55);
+    --bg-chat-elements: rgba(0, 0, 0, 0.55);
+    --bg-settings: rgba(0, 0, 0, 0.55);
+    --bg-colorprofile: rgba(0, 0, 0, 0.55);
+
+    /* SERVER SETTINGS */
+    --ServerSize: 45px;
+    --ServerColumns: 1;
+    --ServerSpacing: 5px 0px 0px 5px;
+    --ServerPills: var(--Primary);
+
+    /* ROUNDING */
+    --Rounding: 5px;
+    --StatusRounding: 4.5;
+}
